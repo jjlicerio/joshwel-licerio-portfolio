@@ -1,0 +1,1338 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&display=swap');
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #EFF6F2;
+}
+
+li, a {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #134D17;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    -webkit-box-shadow: 0px 4px 13px -6px #000000; 
+    box-shadow: 0px 4px 13px -6px #000000;
+}
+
+.logo {
+    cursor: pointer;
+    width: 160px;
+    height: auto;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #3F9949;
+}
+
+.connect {
+    width: 350px;
+    text-align: center;
+}
+
+.paintdrip  {
+    position: absolute;
+    width: 200px;
+    left: 77vw;
+    z-index: -1;
+    top: 50px;
+}
+
+.paintdrip2 {
+    width: 150px;
+    position: absolute;
+    left: 432px;
+    bottom: 46px;
+    z-index: -1;
+}
+
+.josh {
+    border-radius: 50%;
+    border: 10px solid #134D17;
+    width: 300px;
+    box-shadow: 0px 4px 13px -6px #000000;
+}
+
+.socials img {
+    width: 50px;
+    margin: 0 8px;
+}
+
+.connect p {
+    font-family: 'Libre Franklin', sans-serif;
+    justify-content: center;
+}
+
+.about-me {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.description {
+    margin-left: 40px;
+    font-family: 'Libre Franklin', sans-serif;
+    width: 410px;
+}
+
+.description h1 {
+    color: #134D17;
+    font-size: 35px;
+}
+
+.description p {
+    font-size: 20px;
+}
+
+.skills-txt {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.skills-txt h2 {
+    color: #134D17;
+    font-size: 35px;
+    margin: 30px 80px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+}
+
+.skills ul li {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 15px 34px;
+}
+
+.skills h2 {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.skills div {
+    background-color: #134D17;
+    width: 300px;
+    height: 265px;
+    border-radius: 20px;
+    margin: 0 10px;
+    box-shadow: -5px 7px 20px -6px #000000;
+}
+
+.btn {
+    text-align: center;
+    margin: 40px;
+    padding-bottom: 50px;
+}
+
+.puzzlepieces {
+    position: fixed;
+    width: 700px;
+    transform: rotate(227deg);
+    top: -9vh;
+    left: -13vw;
+    opacity: 50%;
+    z-index: -1;
+}
+
+.puzzlepieces2 {
+    position: fixed;
+    width: 1100px;
+    top: 13px;
+    left: 65vw;
+    transform: rotate(337deg);
+    opacity: 50%;
+    z-index: -1;
+}
+
+button {
+    font-family: 'Libre Franklin', sans-serif;
+    background-color: #3F9949;
+    color: #FFFFFF;
+    width: 212px;
+    height: 58px;
+    border-radius: 30px;
+    border-style: none;
+    font-size: 20px;
+    -webkit-box-shadow: 0px 11px 15px -9px #000000; 
+    box-shadow: 0px 11px 15px -9px #000000;
+}
+
+button a {
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+button a {
+    transition: all 0.3s ease 0s;
+}
+
+button a:hover {
+    color: rgb(207, 207, 207);
+}
+
+footer {
+    position: relative;
+    background-color: #134D17;
+    bottom: 0;
+    width: 80%;
+    padding: 40px 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h3 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #FFFFFF;
+    width: 496px;
+    margin-left: 190px;
+    display: inline;
+}
+
+footer .line {
+    border-top: 5px solid #FFFFFF;
+    width: 90%;
+}
+
+footer .ftrmsg {
+    height: 80%;
+}
+
+footer .jjlogo {
+    height: 64px;
+    float: right;
+    width: auto;
+    margin-right: 149px;
+    margin-bottom: 10px;
+}
+
+footer .puzzle-logo {
+    width: 121px;
+    position: absolute;
+    top: 63px;
+    left: 12vw;
+}
+
+footer p {
+    display: block;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: #134D17;
+    margin-top: 150px;
+}
+
+footer h4 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    width: 530px;
+    margin-left: 195px;
+    position: absolute;
+    top: 125px;
+}
+
+footer div {
+    display: inline-flex;
+    margin: 8px 70px;
+    float: right;
+}
+
+footer .social-icons img {
+    vertical-align: top;
+    height: 30px;
+    width: auto;
+    margin: 0px 20px;
+}
+
+@media screen and (min-width: 280px) {
+
+    .logo {
+        width: 100px;
+    }
+
+    .paintdrip  {
+        position: absolute;
+        width: 80px;
+        left: 73vw;
+        z-index: -1;
+        top: 50px;
+    }
+    
+    .puzzlepieces {
+        position: absolute;
+        width: 55vw;
+        top: 6vh;
+        left: -22vw;
+    }
+    
+    .puzzlepieces2 {
+        transform: rotate(339deg);
+        width: 150vw;
+        top: 586px;
+        left: 0vw;
+    }
+
+    .about-me {
+        display: block;
+    }
+
+    .josh {
+        width: 175px;
+        border: 7px solid #134D17;
+    }
+
+    .socials img {
+        width: 35px;
+        margin: 0px 16px;
+    }
+
+    .connect {
+        width: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+    }
+
+    .description {
+        margin: 0;
+        width: 245px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .description h1 {
+        position: absolute;
+        text-align: center;
+        font-size: 25px;
+        left: 50%;
+        top: 90px;
+        transform: translate(-50%, 0);
+        z-index: -1;
+    }
+
+    .description p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .skills-txt {
+        flex-direction: column;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+        top: 645px;
+    }
+
+    .skills-txt h2 {
+        font-size: 22px;
+        text-align: center;
+        margin-bottom: 215px;
+    }
+
+    .skills {
+        flex-direction: column;
+        padding-top: 35px;
+    }
+
+    .skills div {
+        width: 240px;
+        height: 220px;
+        margin: 25px auto;
+    }
+
+    .skills ul li {
+        font-size: 18px;
+        margin: 15px 8px;
+    }
+
+    footer {
+        position: relative;
+        background-color: #134D17;
+        bottom: 0;
+        width: 80%;
+        padding: 40px 10%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer h3 {
+        font-size: 16px;
+        width: 162px;
+        display: block;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    footer .line {
+        border-top: 3px solid #FFFFFF;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 116px;
+    }
+    
+    footer .ftrmsg {
+        height: 80%;
+    }
+    
+    footer .jjlogo {
+        width: 40px;
+        height: auto;
+        transform: translateX(-50%);
+        left: 50%;
+        position: absolute;
+        margin-top: 50px;
+    }
+    
+    footer .puzzle-logo {
+        width: 60px;
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        margin-left: -30px;
+    }
+    
+    footer p {
+        display: block;
+        font-size: 12px;
+        font-weight: 400;
+        color: #FFFFFF;
+        background-color: #134D17;
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    footer h4 {
+        text-align: center;
+        font-size: 11px;
+        width: 202px;
+        left: 50%;
+        margin-left: -101px;
+        position: absolute;
+        top: 100px;
+    }
+    
+    footer div {
+        display: flex;
+        margin: 8px 0;
+        float: none;
+        justify-content: center;
+    }
+    
+    footer .social-icons img {
+        vertical-align: top;
+        height: 25px;
+        width: auto;
+        margin: 0px 20px;
+    }
+
+    .btn {
+        margin: 10px;
+    }
+
+    button {
+        width: 170px;
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    button a {
+        font-size: 12px;
+    }
+
+    .gn-trigger {
+        position: relative;
+        width: 50px;
+        height: 30px;
+        border: none;
+        outline: 0;
+        background: transparent;
+        -webkit-box-shadow: 0px 0px 0px 0px #000000; 
+        box-shadow: 0px 0px 0px 0px #000000;
+        cursor: pointer;
+        margin-top: 0;
+    }
+    
+    .burger {
+        position: absolute;
+        background: #134D17;
+        border-radius: 5px;
+        width: 40px;
+        height: 5px;
+        right: 0;
+        top: 50%;
+    }
+    
+    .burger:before,
+    .burger:after {
+        border-radius: 5px;
+        content: '';
+        display: block;
+        position: absolute;
+        background: #134D17;
+        width: 40px;
+        height: 5px;
+        right: 0;
+    }
+    
+    .burger:before {
+        top: 11px;
+    }
+    
+    .burger:after {
+        bottom: 11px;
+    }
+    
+    .burger,
+    .burger:before,
+    .burger:after {
+        transition-property: transform, top, background;
+        transition-duration: .35s;
+    }
+    
+    .gn-trigger.is-active .burger:before {
+        transform: rotate(45deg);
+        top: -2px;
+    }
+    
+    .gn-trigger.is-active .burger:after {
+        transform: rotate(-45deg);
+        top: -2px;
+    }
+    
+    .gn-trigger.is-active .burger {
+        background: rgba(117,111,102,0);
+    }
+    
+    .gn {
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background: #fff;
+    }
+    
+    .gn li {
+        font-size: 18px;
+        border-bottom: 1px solid #134D17;
+        display: block;
+        width: 100%;
+    }
+    
+    .gn a {
+        padding: 15px 50px;
+        display: block;
+        
+    }
+
+    .gn li:last-child {
+        box-shadow: -1px 4px 5px 0px rgba(71,71,71,.65);
+        border: none;
+    }
+
+    .nav-links {
+        padding-left: 0px;
+        margin: 0;
+    }
+
+    .nav-links li {
+        padding: 0px 0px;
+    }
+}
+
+@media screen and (min-width: 375px) {
+
+    .josh {
+        width: 250px;
+        border: 7px solid #134D17;
+    }
+
+    .paintdrip  {
+        left: 75vw;
+    }
+
+    .puzzlepieces {
+        top: 4vh;
+        left: -22vw;
+    }
+    
+    .puzzlepieces2 {
+        width: 530px;
+        top: 772px;
+        left: 16vw;
+    }
+
+    .socials img {
+        width: 42px;
+        margin: 0px 25px;
+    }
+
+    .connect {
+        width: 325px;
+        margin-top: 110px;
+    }
+
+    .connect p {
+        font-size: 20px;
+    }
+
+    .description {
+        width: 360px;
+    }
+
+    .description h1 {
+        font-size: 30px;
+    }
+
+    .description p {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .skills-txt {
+        top: 850px;
+    }
+
+    .skills-txt h2 {
+        font-size: 27px;
+        margin-bottom: 300px;
+    }
+
+    .skills {
+        flex-direction: column;
+        padding-top: 35px;
+    }
+
+    .skills div {
+        width: 355px;
+        height: 300px;
+        margin: 30px auto;
+    }
+
+    .skills ul li {
+        font-size: 25px;
+        margin: 20px 30px;
+    }
+
+    .btn {
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+
+    button {
+        width: 190px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    button a {
+        font-size: 14px;
+    }
+
+    footer {
+        width: 80%;
+        padding: 40px 10%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer h3 {
+        font-size: 20px;
+        width: 204px;
+        display: block;
+        margin-top: 75px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    footer .line {
+        border-top: 3px solid #FFFFFF;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 160px;
+    }
+    
+    footer .ftrmsg {
+        height: 80%;
+    }
+    
+    footer .jjlogo {
+        width: 50px;
+        height: auto;
+        transform: translateX(-50%);
+        left: 50%;
+        position: absolute;
+        margin-top: 68px;
+    }
+    
+    footer .puzzle-logo {
+        width: 70px;
+        position: absolute;
+        left: 50%;
+        margin-left: -35px;
+    }
+
+    footer p {
+        margin-top: 50px;
+    }
+    
+    footer h4 {
+        text-align: center;
+        font-size: 14px;
+        width: 270px;
+        left: 50%;
+        margin-top: 47px;
+        margin-left: -135px;
+        position: absolute;
+        top: 100px;
+    }
+    
+    footer div {
+        margin: 20px 0;
+        justify-content: center;
+    }
+    
+    footer .social-icons img {
+        height: 30px;
+        margin: 0px 24px;
+    }
+}
+
+@media screen and (min-width: 520px) {
+
+    .li, a {
+        font-size: 15px;
+    }
+
+    .gn a {
+        padding: 30px 80px;
+        display: block;
+    }
+
+    .josh {
+        width: 280px;
+        border: 8px solid #134D17;
+    }
+
+    .paintdrip  {
+        width: 114px;
+        left: 73vw;
+    }
+
+    .puzzlepieces {
+        top: 1vh;
+        left: -25vw;
+    }
+    
+    .puzzlepieces2 {
+        top: 922px;
+        left: 38vw;
+    }
+
+    .socials img {
+        width: 42px;
+    }
+
+    .connect {
+        width: 480px;
+        margin-top: 110px;
+    }
+
+    .connect p {
+        font-size: 24px;
+    }
+
+    .description {
+        width: 480px;
+    }
+
+    .description h1 {
+        font-size: 35px;
+    }
+
+    .description p {
+        font-size: 22px;
+    }
+
+    .skills-txt {
+        top: 1000px;
+    }
+
+    .skills-txt h2 {
+        font-size: 30px;
+        margin-bottom: 405px;
+    }
+
+    .skills {
+        padding-top: 50px;
+    }
+
+    .skills div {
+        width: 480px;
+        height: 400px;
+        margin: 35px auto;
+    }
+
+    .skills ul li {
+        font-size: 28px;
+        margin: 30px 45px;
+    }
+
+    .btn {
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+
+    button a {
+        font-size: 20px;
+    }
+
+    button {
+        width: 220px;
+        height: 65px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .logo {
+        width: 125px;
+    }
+
+    header {
+        padding: 30px 10%;
+    }
+
+    .nav-links {
+        list-style: none;
+        display: inline-flex;
+    }
+    
+    .nav-links li {
+        display: inline-block;
+        padding: 0px 0px;
+    }
+    
+    .nav-links li a {
+        transition: all 0.3s ease 0s;
+    }
+    
+    .nav-links li a:hover {
+        color: #3F9949;
+    }
+
+    .paintdrip  {
+        width: 124px;
+        left: 83vw;
+    }
+
+    .puzzlepieces {
+        width: 40vw;
+        top: -2vh;
+        left: -15vw;
+    }
+    
+    .puzzlepieces2 {
+        width: 910px;
+        top: 542px;
+        left: 58vw;
+    }
+
+    .gn li {
+        font-size: 18px;
+        border-style: none;
+        display: block;
+    }
+
+    .gn-trigger {
+        display: none;
+    }
+    
+    .gn {
+        display: flex;
+        position: unset;
+        width: 350px;
+    }
+
+    .gn a {
+        padding: 0px 25px;
+        margin: 0px 10px 0px;
+        display: block;
+    }
+
+    .gn li:last-child {
+        box-shadow: none;
+    }
+
+    .about-me {
+        display: flex;
+        width: 740px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 90px;
+    }
+
+    .josh {
+        width: 250px;
+        border: 8px solid #134D17;
+    }
+
+    .socials img {
+        width: 42px;
+    }
+
+    .connect {
+        width: 285px;
+        margin: 0;
+    }
+
+    .connect p {
+        font-size: 24px;
+    }
+
+    .description {
+        width: 408px;
+        margin-right: 0;
+    }
+
+    .description h1 {
+        position: static;
+        font-size: 30px;
+        transform: none;
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .description p {
+        font-size: 20.5px;
+        text-align: left;
+    }
+
+    .skills-txt {
+        top: 655px;
+        flex-direction: row;
+    }
+
+    .skills-txt h2 {
+        font-size: 30px;
+        margin: 0;
+        width: 32vw;
+    }
+
+    .skills {
+        flex-direction: row;
+    }
+
+    .skills div {
+        width: 30%;
+        height: 300px;
+        margin: 37px 10px;
+    }
+
+    .skills ul li {
+        font-size: 20px;
+        margin: 21px 20px;
+    }
+
+    footer {
+        position: relative;
+        background-color: #134D17;
+        bottom: 0;
+        width: 80%;
+        padding: 40px 10%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer h3 {
+        font-family: 'Libre Franklin', sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        color: #FFFFFF;
+        margin-left: 12%;
+        display: inline;
+    }
+    
+    footer .line {
+        border-top: 5px solid #FFFFFF;
+        width: 100%;
+        margin-top: 8px;
+    }
+    
+    footer .ftrmsg {
+        height: 80%;
+    }
+    
+    footer .jjlogo {
+        height: 40px;
+        width: auto;
+        left: 75%;
+        top: -41px;
+        position: unset;
+        margin-top: -13px;
+        margin-right: 69px;
+    }
+    
+    footer .puzzle-logo {
+        width: 79px;
+        position: absolute;
+        top: 47px;
+        left: 12vw;
+    }
+    
+    footer p {
+        display: block;
+        background-color: #134D17;
+        margin-top: 150px;
+        font-size: 12px;
+        text-align: left;
+    }
+    
+    footer h4 {
+        text-align: left;
+        font-size: 14px;
+        width: 220px;
+        margin-left: -30%;
+        top: 55px;
+    }
+    
+    footer div {
+        display: inline-flex;
+        margin: 10px 0px;
+        float: right;
+    }
+    
+    footer .social-icons img {
+        vertical-align: top;
+        height: 30px;
+        width: auto;
+        margin: 0px 20px;
+    }
+
+}
+
+@media screen and (min-width: 1366px) {
+
+    .logo {
+        width: 140px;
+    }
+
+    .about-me {
+        width: 850px;
+        margin-top: 100px;
+    }
+
+    .josh {
+        width: 330px;
+        border: 10px solid #134D17;
+    }
+
+    .paintdrip  {
+        width: 150px;
+        left: 78vw;
+    }
+
+    .puzzlepieces {
+        width: 35vw;
+        top: -2vh;
+        left: -12vw;
+    }
+    
+    .puzzlepieces2 {
+        width: 910px;
+        top: 545px;
+        left: 61vw;
+    }
+
+    .socials img {
+        width: 50px;
+    }
+
+    .connect {
+        width: 350px;
+    }
+
+    .connect p {
+        font-size: 18px;
+    }
+
+    .description {
+        width: 415px;
+    }
+
+    .description h1 {
+        margin: 20px 0;
+        font-size: 35px;
+    }
+
+    .description p {
+        font-size: 21.5px;
+        text-align: left;
+    }
+
+    .skills-txt {
+        position: static;
+        transform: none;
+        margin-right: 30px;
+        padding-top: 50px;
+    }
+
+    .skills-txt h2 {
+        font-size: 35px;
+        margin: 0 145px;
+        width: auto;
+    }
+
+    .skills {
+        flex-direction: row;
+        padding-top: 0;
+    }
+
+    .skills div {
+        margin: 0px 10px;
+        width: 427px;
+        height: 370px;
+    }
+
+    .skills ul li {
+        font-size: 28px;
+        margin: 22px 50px;
+    }
+
+    footer h3 {
+        font-size: 40px;
+    }
+    
+    footer .line {
+        border-top: 5px solid #FFFFFF;
+        width: 95%;
+        margin-top: 8px;
+    }
+    
+    footer .jjlogo {
+        height: 55px;
+        width: auto;
+        left: 75%;
+        top: -41px;
+        margin-top: -13px;
+        margin-right: 57px;
+    }
+    
+    footer .puzzle-logo {
+        width: 100px;
+        top: 53px;
+        left: 14vw;
+    }
+    
+    footer h4 {
+        text-align: left;
+        font-size: 18px;
+        width: 530px;
+        margin-left: -30%;
+        top: 75px;
+    }
+
+    footer p {
+        font-size: 14px;
+        margin-left: 40px;
+    }
+    
+    footer div {
+        display: inline-flex;
+        margin: 10px 0px;
+        float: right;
+    }
+    
+    footer .social-icons img {
+        vertical-align: top;
+        height: 30px;
+        width: auto;
+        margin: 0px 20px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+
+    .logo {
+        width: 160px;
+    }
+
+    li, a {
+        font-size: 20px;
+    }
+
+    .about-me {
+        width: 1050px;
+        margin-top: 100px;
+    }
+
+    .josh {
+        width: 380px;
+        border: 10px solid #134D17;
+    }
+
+    .paintdrip  {
+        width: 180px;
+        left: 82vw;
+    }
+
+    .puzzlepieces {
+        width: 35vw;
+        top: -6vh;
+        left: -9vw;
+    }
+    
+    .puzzlepieces2 {
+        width: 1020px;
+        top: 605px;
+        left: 61vw;
+    }
+
+    .socials img {
+        width: 50px;
+    }
+
+    .connect {
+        width: 395px;
+    }
+
+    .connect p {
+        font-size: 24px;
+    }
+
+    .description {
+        width: 500px;
+    }
+
+    .description h1 {
+        margin: 20px 0;
+        font-size: 40px;
+    }
+
+    .description p {
+        font-size: 26px;
+        text-align: left;
+    }
+
+    .skills-txt {
+        position: static;
+        transform: none;
+        margin-right: 30px;
+        padding-top: 70px;
+    }
+
+    .skills-txt h2 {
+        font-size: 40px;
+        margin: 0 160px;
+        width: auto;
+    }
+
+    .skills div {
+        width: 485px;
+        height: 430px;
+    }
+
+    .skills ul li {
+        font-size: 35px;
+        margin: 32px 65px;
+    }
+
+    button {
+        width: 250px;
+        height: 80px;
+        border-radius: 40px;
+        font-size: 22px;
+    }
+
+    button a {
+        font-size: 20px;
+    }
+    
+    .btn {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    footer h3 {
+        font-size: 45px;
+    }
+
+    footer p {
+        font-size: 16px;
+        margin-top: 200px;
+        margin-left: 50px;
+    }
+    
+    footer .line {
+        border-top: 7px solid #FFFFFF;
+        margin-top: 15px;
+    }
+    
+    footer .jjlogo {
+        height: 65px;
+        width: auto;
+        left: 75%;
+        top: -41px;
+        margin-top: -13px;
+        margin-right: 85px;
+    }
+    
+    footer .puzzle-logo {
+        width: 121px;
+        top: 60px;
+        left: 14vw;
+    }
+    
+    footer h4 {
+        font-size: 22px;
+        width: 645px;
+        top: 100px;
+    }
+    
+    footer .social-icons img {
+        height: 40px;
+        width: auto;
+        margin: 0px 20px;
+    }
+
+    footer li, a {
+        margin: 0px 7px;
+    }
+}

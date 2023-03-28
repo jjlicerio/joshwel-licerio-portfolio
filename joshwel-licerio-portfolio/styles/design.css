@@ -1,0 +1,1632 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EFF6F2;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+
+main {
+    flex-grow: 1;
+}
+
+li, a {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #134D17;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    -webkit-box-shadow: 0px 4px 13px -6px #000000; 
+    box-shadow: 0px 4px 13px -6px #000000;
+}
+
+.logo {
+    cursor: pointer;
+    width: 160px;
+    height: auto;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #3F9949;
+}
+
+.title {
+    padding-top: 35px;
+    text-align: center;
+}
+
+.paintsplatter {
+    width: 200px;
+    position: absolute;
+    bottom: 37px;
+    right: 93px;
+}
+
+.puzzlepieces {
+    position: fixed;
+    width: 600px;
+    transform: rotate(235deg);
+    top: 20vh;
+    left: -15vw;
+    opacity: 50%;
+    z-index: -1;
+}
+
+.puzzlepieces2 {
+    position: fixed;
+    width: 700px;
+    top: -111px;
+    left: 80vw;
+    transform: rotate(296deg);
+    opacity: 50%;
+    z-index: -1;
+}
+
+h1 {
+    font-family: 'Libre Franklin', sans-serif;
+    color: #134D17;
+    font-size: 30px;
+}
+
+.uiux {
+    font-family: 'Libre Franklin', sans-serif;
+    background-color: #ffffff;
+    color: #3F9949;
+    width: 115px;
+    height: 45px;
+    border-radius: 30px;
+    border: #3F9949 4px solid;
+    font-size: 15px;
+    -webkit-box-shadow: 0px 11px 15px -9px #000000; 
+    box-shadow: 0px 11px 15px -9px #000000;
+}
+
+.design {
+    font-family: 'Libre Franklin', sans-serif;
+    background-color: #3F9949;
+    color: #FFFFFF;
+    width: 189px;
+    height: 45px;
+    border-radius: 30px;
+    font-size: 15px;
+    border: #3F9949 4px solid;
+    -webkit-box-shadow: 0px 11px 15px -9px #000000; 
+    box-shadow: 0px 11px 15px -9px #000000;
+}
+
+.rapidish {
+    padding-top: 50px;
+    font-family: 'Libre Franklin', sans-serif;
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.rapidish img {
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 13px -6px #000000;
+}
+
+.rapidish .description {
+    padding-left: 20px;
+}
+
+.rapidish .description h2 {
+    font-size: 25px;
+    width: 215px;
+}
+
+.photofin {
+    padding-top: 50px;
+    font-family: 'Libre Franklin', sans-serif;
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.photofin img {
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 13px -6px #000000;
+}
+
+.photofin .description {
+    padding-left: 20px;
+}
+
+.photofin .description h2 {
+    font-size: 25px;
+    width: 220px;
+}
+
+.jjewelry {
+    padding-top: 50px;
+    font-family: 'Libre Franklin', sans-serif;
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.jjewelry img {
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 13px -6px #000000;
+}
+
+.jjewelry .description {
+    width: 468px;
+    padding-right: 20px;
+}
+
+.viewrapid {
+    font-family: 'Libre Franklin', sans-serif;
+    background-color: #3F9949;
+    color: #FFFFFF;
+    width: 150px;
+    height: 45px;
+    border-radius: 30px;
+    border-style: none;
+    font-size: 15px;
+    -webkit-box-shadow: 0px 11px 15px -9px #000000; 
+    box-shadow: 0px 11px 15px -9px #000000;
+    float: right;
+}
+
+.viewjj {
+    font-family: 'Libre Franklin', sans-serif;
+    background-color: #3F9949;
+    color: #FFFFFF;
+    width: 150px;
+    height: 45px;
+    border-radius: 30px;
+    border-style: none;
+    font-size: 15px;
+    -webkit-box-shadow: 0px 11px 15px -9px #000000; 
+    box-shadow: 0px 11px 15px -9px #000000;
+}
+
+.uiux a {
+    color: #3F9949;
+}
+
+.uiux a:hover {
+    color: #134D17;
+}
+
+button a {
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+button a {
+    transition: all 0.3s ease 0s;
+}
+
+button a:hover {
+    color: rgb(207, 207, 207);
+}
+
+footer {
+    position: relative;
+    background-color: #134D17;
+    bottom: 0;
+    width: 80%;
+    padding: 40px 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h3 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #FFFFFF;
+    width: 496px;
+    margin-left: 190px;
+    display: inline;
+}
+
+footer .line {
+    border-top: 5px solid #FFFFFF;
+    width: 90%;
+}
+
+footer .ftrmsg {
+    height: 80%;
+}
+
+footer .jjlogo {
+    height: 64px;
+    float: right;
+    width: auto;
+    margin-right: 149px;
+    margin-bottom: 10px;
+}
+
+footer .puzzle-logo {
+    width: 121px;
+    position: absolute;
+    top: 63px;
+    left: 12vw;
+}
+
+footer p {
+    display: block;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: #134D17;
+    margin-top: 150px;
+}
+
+footer h4 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    width: 530px;
+    margin-left: 195px;
+    position: absolute;
+    top: 125px;
+}
+
+footer div {
+    display: inline-flex;
+    margin: 8px 70px;
+    float: right;
+}
+
+footer .social-icons img {
+    vertical-align: top;
+    height: 30px;
+    width: auto;
+    margin: 0px 20px;
+}
+
+@media screen and (min-width: 280px) {
+    
+    .link {
+        margin: 0 auto;
+    }
+
+    .paintsplatter {
+        width: 82px;
+        top: 39px;
+        right: 3vw;
+        z-index: -1;
+    }
+
+    .puzzlepieces {
+        position: absolute;
+        width: 50vw;
+        transform: rotate(213deg);
+        top: 4vh;
+        left: -25vw;
+    }
+    
+    .puzzlepieces2 {
+        position: fixed;
+        width: 380px;
+        top: 60vh;
+        left: 50vw;
+        transform: rotate(359deg);
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+    
+    
+    .title {
+        padding-top: 35px;
+        text-align: center;
+    }
+    
+    .uiux {
+        width: 90px;
+    }
+    
+    .design {
+        width: 140px;
+        font-size: 12px;
+    }
+
+    .btn {
+        margin: 10px;
+    }
+
+    button {
+        width: 170px;
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    button a {
+        font-size: 12px;
+    }
+
+    .rapidish {
+        padding-top: 50px;
+        display: flex;
+        width: 280px;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    
+    .rapidish img {
+        width: 260px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .rapidish .description h2 {
+        font-size: 20px;
+        width: 215px;
+        margin-bottom: -6px;
+    }
+
+    .rapidish .description p {
+        font-size: 12px;
+        width: 245px;
+    }
+    
+    .rapidish .description {
+        padding-left: 15px;
+    }
+
+    .viewrapid {
+        width: 115px;
+        height: 45px;
+        font-size: 12px;
+        margin-top: 0;
+        margin-right: 10px;
+    }    
+
+    .jjewelry {
+        flex-direction: column-reverse;
+        padding-top: 35px;
+        width: 280px;
+    }
+    
+    .jjewelry img {
+        width: 260px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .jjewelry .description h2 {
+        font-size: 20px;
+        width: 215px;
+        margin-bottom: -6px;
+    }
+
+    .jjewelry .description p {
+        font-size: 12px;
+        width: 245px;
+    }
+    
+    .jjewelry .description {
+        width: 260px;
+        padding-left: 15px;
+        padding-right: 0px;
+    }
+
+    .viewjj {
+        width: 115px;
+        height: 45px;
+        font-size: 12px;
+        margin-top: 0;
+        margin-right: 10px;
+        float: right;
+    }
+
+    .photofin {
+        display: flex;
+        width: 280px;
+        flex-direction: column;
+        padding-bottom: 60px;
+    }
+    
+    .photofin img {
+        width: 260px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .photofin .description h2 {
+        font-size: 20px;
+        width: 215px;
+        margin-bottom: -6px;
+    }
+
+    .photofin .description p {
+        font-size: 12px;
+        width: 245px;
+    }
+    
+    .photofin .description {
+        padding-left: 15px;
+    }
+
+    footer {
+        position: relative;
+        background-color: #134D17;
+        bottom: 0;
+        width: 80%;
+        padding: 40px 10%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer h3 {
+        font-size: 16px;
+        width: 162px;
+        display: block;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    footer .line {
+        border-top: 3px solid #FFFFFF;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 116px;
+    }
+    
+    footer .ftrmsg {
+        height: 80%;
+    }
+    
+    footer .jjlogo {
+        width: 40px;
+        height: auto;
+        transform: translateX(-50%);
+        left: 50%;
+        position: absolute;
+        margin-top: 50px;
+    }
+    
+    footer .puzzle-logo {
+        width: 60px;
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        margin-left: -30px;
+    }
+    
+    footer p {
+        display: block;
+        font-size: 12px;
+        font-weight: 400;
+        color: #FFFFFF;
+        background-color: #134D17;
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    footer h4 {
+        text-align: center;
+        font-size: 11px;
+        width: 202px;
+        left: 50%;
+        margin-left: -101px;
+        position: absolute;
+        top: 100px;
+    }
+    
+    footer div {
+        display: flex;
+        margin: 8px 0;
+        float: none;
+        justify-content: center;
+    }
+    
+    footer .social-icons img {
+        vertical-align: top;
+        height: 25px;
+        width: auto;
+        margin: 0px 20px;
+    }
+
+    .gn-trigger {
+        position: relative;
+        width: 50px;
+        height: 30px;
+        border: none;
+        outline: 0;
+        background: transparent;
+        -webkit-box-shadow: 0px 0px 0px 0px #000000; 
+        box-shadow: 0px 0px 0px 0px #000000;
+        cursor: pointer;
+        margin-top: 0;
+    }
+    
+    .burger {
+        position: absolute;
+        background: #134D17;
+        border-radius: 5px;
+        width: 40px;
+        height: 5px;
+        right: 0;
+        top: 50%;
+    }
+    
+    .burger:before,
+    .burger:after {
+        border-radius: 5px;
+        content: '';
+        display: block;
+        position: absolute;
+        background: #134D17;
+        width: 40px;
+        height: 5px;
+        right: 0;
+    }
+    
+    .burger:before {
+        top: 11px;
+    }
+    
+    .burger:after {
+        bottom: 11px;
+    }
+    
+    .burger,
+    .burger:before,
+    .burger:after {
+        transition-property: transform, top, background;
+        transition-duration: .35s;
+    }
+    
+    .gn-trigger.is-active .burger:before {
+        transform: rotate(45deg);
+        top: -2px;
+    }
+    
+    .gn-trigger.is-active .burger:after {
+        transform: rotate(-45deg);
+        top: -2px;
+    }
+    
+    .gn-trigger.is-active .burger {
+        background: rgba(117,111,102,0);
+    }
+    
+    .gn {
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background: #fff;
+    }
+    
+    .gn li {
+        font-size: 18px;
+        border-bottom: 1px solid #134D17;
+        display: block;
+        width: 100%;
+    }
+    
+    .gn a {
+        padding: 15px 50px;
+        display: block;
+        
+    }
+
+    .gn li:last-child {
+        box-shadow: -1px 4px 5px 0px rgba(71,71,71,.65);
+        border: none;
+    }
+
+    .nav-links {
+        padding-left: 0px;
+        margin: 0;
+    }
+
+    .nav-links li {
+        padding: 0px 0px;
+    }
+}
+
+@media screen and (min-width: 375px) {
+
+    .paintsplatter {
+        right: 6vw;
+    }
+
+    .puzzlepieces {
+        width: 50vw;
+        top: 3vh;
+        left: -25vw;
+    }
+    
+    .puzzlepieces2 {
+        width: 80vw;
+        top: 650px;
+        left: 50vw;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+    
+    
+    .title {
+        padding-top: 35px;
+        text-align: center;
+    }
+    
+    .uiux {
+        width: 90px;
+    }
+    
+    .design {
+        width: 160px;
+        font-size: 14px;
+    }
+
+    .btn {
+        margin: 10px;
+    }
+
+    button {
+        width: 170px;
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    button a {
+        font-size: 14px;
+    }
+
+    .rapidish {
+        width: 375px;
+    }
+    
+    .rapidish img {
+        width: 355px;
+    }
+
+    .rapidish .description h2 {
+        font-size: 22px;
+        width: 280px;
+    }
+
+    .rapidish .description p {
+        font-size: 14px;
+        width: 340px;
+    }
+    
+    .rapidish .description {
+        padding-left: 15px;
+    }
+
+    .viewrapid {
+        width: 120px;
+    }    
+
+    .jjewelry {
+        width: 375px;
+    }
+    
+    .jjewelry img {
+        width: 355px;
+    }
+
+    .jjewelry .description h2 {
+        font-size: 22px;
+        width: 230px;
+    }
+
+    .jjewelry .description p {
+        font-size: 14px;
+        width: 340px;
+    }
+    
+    .jjewelry .description {
+        width: 355px;
+        padding-left: 15px;
+        padding-right: 0px;
+    }
+
+    .viewjj {
+        width: 120px;
+    }
+
+    .photofin {
+        width: 375px;
+    }
+    
+    .photofin img {
+        width: 355px;
+    }
+
+    .photofin .description h2 {
+        font-size: 22px;
+        width: 360px;
+    }
+
+    .photofin .description p {
+        font-size: 14px;
+        width: 340px;
+    }
+    
+    .photofin .description {
+        padding-left: 15px;
+    }
+
+    footer {
+        width: 80%;
+        padding: 40px 10%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer h3 {
+        font-size: 20px;
+        width: 204px;
+        display: block;
+        margin-top: 75px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    footer .line {
+        border-top: 3px solid #FFFFFF;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 160px;
+    }
+    
+    footer .ftrmsg {
+        height: 80%;
+    }
+    
+    footer .jjlogo {
+        width: 50px;
+        height: auto;
+        transform: translateX(-50%);
+        left: 50%;
+        position: absolute;
+        margin-top: 68px;
+    }
+    
+    footer .puzzle-logo {
+        width: 70px;
+        position: absolute;
+        left: 50%;
+        margin-left: -35px;
+    }
+
+    footer p {
+        margin-top: 50px;
+    }
+    
+    footer h4 {
+        text-align: center;
+        font-size: 14px;
+        width: 270px;
+        left: 50%;
+        margin-top: 47px;
+        margin-left: -135px;
+        position: absolute;
+        top: 100px;
+    }
+    
+    footer div {
+        margin: 20px 0;
+        justify-content: center;
+    }
+    
+    footer .social-icons img {
+        height: 30px;
+        margin: 0px 24px;
+    }
+}
+
+@media screen and (min-width: 520px) {
+
+    .li, a {
+        font-size: 15px;
+    }
+
+    .gn a {
+        padding: 30px 80px;
+        display: block;
+    }
+
+    .paintsplatter {
+        width: 100px;
+        top: 35px;
+        right: 4vw;
+    }
+
+    .puzzlepieces {
+        width: 40vw;
+        top: 7vh;
+        left: -14vw;
+    }
+    
+    .puzzlepieces2 {
+        width: 80vw;
+        top: 696px;
+        left: 32vw;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+    
+    .title {
+        padding-top: 35px;
+    }
+    
+    .uiux {
+        width: 90px;
+    }
+    
+    .design {
+        width: 175px;
+        font-size: 16px;
+    }
+
+    .btn {
+        margin: 10px;
+    }
+
+    button {
+        width: 170px;
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    button a {
+        font-size: 16px;
+    }
+
+    .rapidish {
+        width: 80vw;
+    }
+    
+    .rapidish img {
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .rapidish .description h2 {
+        font-size: 24px;
+        width: 300px;
+    }
+
+    .rapidish .description p {
+        font-size: 16px;
+        width: 75vw;
+    }
+    
+    .rapidish .description {
+        padding-left: 20px;
+    }
+
+    .viewrapid {
+        width: 130px;
+    }    
+
+    .jjewelry {
+        width: 80vw;
+    }
+    
+    .jjewelry img {
+        width: 80vw;
+    }
+
+    .jjewelry .description h2 {
+        font-size: 24px;
+        width: 280px;
+    }
+
+    .jjewelry .description p {
+        font-size: 16px;
+        width: 75vw;
+    }
+    
+    .jjewelry .description {
+        padding-left: 20px;
+        width: 77vw;
+    }
+
+    .viewjj {
+        width: 130px;
+        margin-left: 40px;
+    }
+
+    .photofin {
+        width: 80vw;
+    }
+    
+    .photofin img {
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .photofin .description h2 {
+        font-size: 24px;
+    }
+
+    .photofin .description p {
+        font-size: 16px;
+        width: 75vw;
+    }
+    
+    .photofin .description {
+        padding-left: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .link {
+        margin: 0;
+    }
+
+    .paintsplatter {
+        width: 115px;
+        top: 55px;
+        right: 6vw;
+    }
+
+    .puzzlepieces {
+        width: 30vw;
+        top: 6vh;
+        left: -11vw;
+        transform: rotate(213deg);
+    }
+    
+    .puzzlepieces2 {
+        width: 35vw;
+        position: fixed;
+        top: 610px;
+        left: 74vw;
+        transform: rotate(0deg);
+    }
+
+    .logo {
+        width: 125px;
+    }
+
+    header {
+        padding: 30px 10%;
+    }
+
+    .nav-links {
+        list-style: none;
+        display: inline-flex;
+    }
+    
+    .nav-links li {
+        display: inline-block;
+        padding: 0px 0px;
+    }
+    
+    .nav-links li a {
+        transition: all 0.3s ease 0s;
+    }
+    
+    .nav-links li a:hover {
+        color: #3F9949;
+    }
+
+    .gn li {
+        font-size: 18px;
+        border-style: none;
+        display: block;
+    }
+
+    .gn-trigger {
+        display: none;
+    }
+    
+    .gn {
+        display: flex;
+        position: unset;
+        width: 350px;
+    }
+
+    .gn a {
+        padding: 0px 25px;
+        margin: 0px 10px 0px;
+        display: block;
+    }
+
+    .gn li:last-child {
+        box-shadow: none;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+    
+    .title {
+        padding-top: 35px;
+    }
+    
+    .uiux {
+        width: 90px;
+    }
+    
+    .design {
+        width: 175px;
+        font-size: 16px;
+    }
+
+    .btn {
+        margin: 10px;
+    }
+
+    button {
+        width: 170px;
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    button a {
+        font-size: 16px;
+    }
+
+    .rapidish {
+        flex-direction: row;
+        width: 723px;
+        justify-content: center;
+    }
+    
+    .rapidish img {
+        width: 450px;
+        margin: 0;
+    }
+
+    .rapidish .description h2 {
+        font-size: 22px;
+        width: 200px;
+    }
+
+    .rapidish .description p {
+        font-size: 14px;
+        width: 253px;
+    }
+    
+    .rapidish .description {
+        padding-left: 3vw;
+    }
+
+    .viewrapid {
+        width: 140px;
+    }    
+
+    .jjewelry {
+        width: 723px;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .jjewelry img {
+        width: 425px;
+        margin: 0;
+    }
+
+    .jjewelry .description h2 {
+        font-size: 22px;
+    }
+
+    .jjewelry .description p {
+        font-size: 14px;
+        width: 253px;
+    }
+    
+    .jjewelry .description {
+        padding-right: 3vw;
+        width: 77vw;
+    }
+
+    .viewjj {
+        float: left;
+        width: 140px;
+        margin: 0;
+    }
+
+    .photofin {
+        flex-direction: row;
+        width: 723px;
+        justify-content: center;
+        padding-bottom: 80px;
+    }
+    
+    .photofin img {
+        width: 450px;
+        margin: 0;
+    }
+
+    .photofin .description h2 {
+        font-size: 22px;
+        width: 240px;
+    }
+
+    .photofin .description p {
+        font-size: 14px;
+        width: 253px;
+    }
+    
+    .photofin .description {
+        padding-left: 5vw;
+    }
+
+    footer {
+        position: relative;
+        background-color: #134D17;
+        bottom: 0;
+        width: 80%;
+        padding: 40px 10%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer h3 {
+        font-family: 'Libre Franklin', sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        color: #FFFFFF;
+        margin-left: 12%;
+        display: inline;
+    }
+    
+    footer .line {
+        border-top: 5px solid #FFFFFF;
+        width: 100%;
+        margin-top: 8px;
+    }
+    
+    footer .ftrmsg {
+        height: 80%;
+    }
+    
+    footer .jjlogo {
+        height: 40px;
+        width: auto;
+        left: 75%;
+        top: -41px;
+        position: unset;
+        margin-top: -13px;
+        margin-right: 69px;
+    }
+    
+    footer .puzzle-logo {
+        width: 79px;
+        position: absolute;
+        top: 47px;
+        left: 12vw;
+    }
+    
+    footer p {
+        display: block;
+        background-color: #134D17;
+        margin-top: 150px;
+        font-size: 12px;
+        text-align: left;
+    }
+    
+    footer h4 {
+        text-align: left;
+        font-size: 14px;
+        width: 220px;
+        margin-left: -30%;
+        top: 55px;
+    }
+    
+    footer div {
+        display: inline-flex;
+        margin: 10px 0px;
+        float: right;
+    }
+    
+    footer .social-icons img {
+        vertical-align: top;
+        height: 30px;
+        width: auto;
+        margin: 0px 20px;
+    }
+
+}
+
+@media screen and (min-width: 1366px) {
+
+    .paintsplatter {
+        width: 145px;
+        top: 45px;
+        right: 7vw;
+    }
+
+    .puzzlepieces {
+        width: 25vw;
+        top: 5vh;
+        left: -9vw;
+        transform: rotate(213deg);
+    }
+    
+    .puzzlepieces2 {
+        width: 30vw;
+        top: 833px;
+        left: 68vw;
+        position: absolute;
+        transform: rotate(180deg);
+    }
+
+    .logo {
+        width: 140px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+    
+    .title {
+        padding-top: 35px;
+    }
+    
+    .uiux {
+        width: 90px;
+    }
+    
+    .design {
+        width: 185px;
+        font-size: 16px;
+    }
+
+    .rapidish {
+        width: 1100px;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .rapidish img {
+        width: 450px;
+        margin: 0;
+    }
+
+    .rapidish .description h2 {
+        font-size: 25px;
+    }
+
+    .rapidish .description p {
+        font-size: 16px;
+        width: 450px;
+    }
+    
+    .rapidish .description {
+        padding-left: 5vw;
+    }
+
+    .viewrapid {
+        width: 140px;
+    }    
+
+    .jjewelry {
+        width: 1100px;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .jjewelry img {
+        width: 450px;
+        margin: 0;
+    }
+
+    .jjewelry .description h2 {
+        font-size: 25px;
+    }
+
+    .jjewelry .description p {
+        font-size: 16px;
+        width: 450px;
+    }
+    
+    .jjewelry .description {
+        padding-right: 5vw;
+        width: 450px;
+    }
+
+    .viewjj {
+        float: left;
+        width: 140px;
+        margin: 0;
+    }
+
+    .photofin {
+        width: 1100px;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .photofin img {
+        width: 450px;
+        margin: 0;
+    }
+
+    .photofin .description h2 {
+        font-size: 25px;
+    }
+
+    .photofin .description p {
+        font-size: 16px;
+        width: 450px;
+    }
+    
+    .photofin .description {
+        padding-left: 5vw;
+    }
+
+    footer h3 {
+        font-size: 40px;
+    }
+    
+    footer .line {
+        border-top: 5px solid #FFFFFF;
+        width: 95%;
+        margin-top: 8px;
+    }
+    
+    footer .jjlogo {
+        height: 55px;
+        width: auto;
+        left: 75%;
+        top: -41px;
+        margin-top: -13px;
+        margin-right: 57px;
+    }
+    
+    footer .puzzle-logo {
+        width: 100px;
+        top: 53px;
+        left: 14vw;
+    }
+    
+    footer h4 {
+        text-align: left;
+        font-size: 18px;
+        width: 530px;
+        margin-left: -30%;
+        top: 75px;
+    }
+
+    footer p {
+        font-size: 14px;
+        margin-left: 40px;
+    }
+    
+    footer div {
+        display: inline-flex;
+        margin: 10px 0px;
+        float: right;
+    }
+    
+    footer .social-icons img {
+        vertical-align: top;
+        height: 30px;
+        width: auto;
+        margin: 0px 20px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+
+    .paintsplatter {
+        width: 165px;
+        top: 53px;
+        right: 5vw;
+    }
+
+    .puzzlepieces2 {
+        width: 25vw;
+        top: 900px;
+        left: 73.8vw;
+    }
+
+    .logo {
+        width: 160px;
+    }
+
+    li, a {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+    
+    .title {
+        padding-top: 35px;
+    }
+    
+    .uiux {
+        width: 105px;
+        height: 55px;
+    }
+    
+    .design {
+        width: 200px;
+        height: 55px;
+        font-size: 18px;
+    }
+
+    .btn {
+        margin: 10px;
+    }
+
+    button {
+        width: 170px;
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    button a {
+        font-size: 18px;
+    }
+
+    .rapidish {
+        width: 1700px;
+    }
+    
+    .rapidish img {
+        width: 500px;
+    }
+
+    .rapidish .description h2 {
+        font-size: 28px;
+        width: 250px;
+    }
+
+    .rapidish .description p {
+        font-size: 20px;
+        width: 600px;
+    }
+    
+    .rapidish .description {
+        padding-left: 5vw;
+    }
+
+    .viewrapid {
+        width: 150px;
+        height: 55px;
+    }    
+
+    .jjewelry {
+        width: 1700px;
+    }
+    
+    .jjewelry img {
+        width: 500px;
+    }
+
+    .jjewelry .description h2 {
+        font-size: 28px;
+        width: 300px;
+    }
+
+    .jjewelry .description p {
+        font-size: 20px;
+        width: 600px;
+    }
+    
+    .jjewelry .description {
+        padding-right: 5vw;
+        width: 600px;
+    }
+
+    .viewjj {
+        width: 150px;
+        height: 55px;
+    }
+
+    .photofin {
+        width: 1700px;
+    }
+    
+    .photofin img {
+        width: 500px;
+
+    }
+
+    .photofin .description h2 {
+        font-size: 28px;
+        width: 400px;
+    }
+
+    .photofin .description p {
+        font-size: 20px;
+        width: 600px;
+    }
+    
+    .photofin .description {
+        padding-left: 5vw;
+    }
+
+    footer h3 {
+        font-size: 45px;
+    }
+
+    footer p {
+        font-size: 16px;
+        margin-top: 200px;
+        margin-left: 50px;
+    }
+    
+    footer .line {
+        border-top: 7px solid #FFFFFF;
+        margin-top: 15px;
+    }
+    
+    footer .jjlogo {
+        height: 65px;
+        width: auto;
+        left: 75%;
+        top: -41px;
+        margin-top: -13px;
+        margin-right: 85px;
+    }
+    
+    footer .puzzle-logo {
+        width: 121px;
+        top: 60px;
+        left: 14vw;
+    }
+    
+    footer h4 {
+        font-size: 22px;
+        width: 645px;
+        top: 100px;
+    }
+    
+    footer .social-icons img {
+        height: 40px;
+        width: auto;
+        margin: 0px 20px;
+    }
+
+    footer li, a {
+        margin: 0px 7px;
+    }
+}
